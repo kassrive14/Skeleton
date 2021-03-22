@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>1. Practica</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/blog.css">
+  <link rel="stylesheet" href="css/pantheon.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body class="page-index">
+<nav>
+	<div class="nav-content">
+	<ul>
+	<li><a href="/es/" class="logomark"><svg xmlns="http://www.w3.org/2000/svg" height="22" width="22"><path d="M11 0C4.926 0 0 4.926 0 11s4.926 11 11 11 11-4.926 11-11S17.074 0 11 0zm-.02 1.049h.002a.07.07 0 00.018 0c4.548 0 8.384 3.052 9.57 7.217a17.315 17.315 0 01-4.213 5.496c-.847.733-1.773 1.383-2.79 1.842-1.018.458-2.136.719-3.247.656a5.6 5.6 0 01-2.271-.633 18.276 18.276 0 005.078-4.12c.956-1.116 1.791-2.39 2.115-3.833.165-.722.19-1.48.04-2.207a4.079 4.079 0 00-.999-1.965 4.013 4.013 0 00-1.855-1.098 4.85 4.85 0 00-2.153-.078c-1.423.261-2.693 1.086-3.705 2.108-1.787 1.8-2.89 4.34-2.687 6.875.102 1.267.524 2.511 1.252 3.554.143.205.302.398.467.584a16.228 16.228 0 01-3.086.739A9.946 9.946 0 0110.98 1.049zm.07 2.02c.004-.001.016.002.012.001.692 0 1.387.211 1.936.627a3.2 3.2 0 011.068 1.49 4.12 4.12 0 01.192 1.848c-.143 1.243-.77 2.388-1.533 3.393-1.354 1.778-3.156 3.203-5.159 4.2-.19.095-.386.187-.582.274a5.114 5.114 0 01-1.05-1.295c-.59-1.044-.784-2.284-.67-3.482.116-1.199.526-2.356 1.082-3.43.643-1.244 1.516-2.418 2.732-3.09a4.14 4.14 0 011.973-.537zm9.83 6.81c.042.367.071.739.071 1.117 0 5.497-4.452 9.953-9.95 9.953a9.917 9.917 0 01-7.59-3.53 18.138 18.138 0 003.17-1.06c.461.346.967.634 1.507.84 1.59.61 3.392.52 4.996-.035 1.603-.555 3.021-1.549 4.256-2.705a18.264 18.264 0 003.54-4.58z"></path></svg></a></li>
+	<li><a href="/es/support">Asistencia</a></li>
+	<li><a href="https://developer.elementary.io" target="_self">Desarrollo</a></li>
+	<li><a href="/es/get-involved">Participar</a></li>
+	<li><a href="/es/store/">Tienda</a></li>
+	<li><a href="https://blog.elementary.io" target="_self">Blog</a></li>
+	</ul>
+	<ul class="right">
+	<li><a href="https://youtube.com/user/elementaryproject" target="_blank" rel="noopener" data-l10n-off="" title="Youtube"><i class="fab fa-youtube"></i></a></li>
+	<li><a href="https://www.facebook.com/elementaryos" target="_blank" rel="noopener" data-l10n-off="" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+	<li><a href="https://mastodon.social/@elementary" target="_blank" rel="noopener" data-l10n-off="" title="Mastodon"><i class="fab fa-mastodon"></i></a></li>
+	<li><a href="https://www.reddit.com/r/elementaryos" target="_blank" rel="noopener" data-l10n-off="" title="Reddit"><i class="fab fa-reddit"></i></a></li>
+	<li><a href="https://elementaryos.stackexchange.com" target="_blank" rel="noopener" data-l10n-off="" title="Stack Exchange"><i class="fab fa-stack-exchange"></i></a></li>
+	<li><a href="https://twitter.com/elementary" target="_blank" rel="noopener" data-l10n-off="" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+	<li><a href="https://community-slack.elementary.io/" target="_blank" rel="noopener" data-l10n-off="" title="Slack"><i class="fab fa-slack"></i></a></li>
+	</ul>
+	</div>
+</nav>
+
+<div id="content-container">
+
+	<!----------------------------------- uno ---------------------------------->
+
+	<section class="section--hero section--stretched">
+	<div class="section__detail grid">
+	<div class="whole">
+	<h1 id="logotype" alt="elementary OS"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 454.22 65.577"><path class="logotype-svg" style="text-align:start" d="M388.22 0c-3.287 0-6.357.717-9.22 2.125a23.81 23.81 0 00-7.406 5.562c-2.066 2.348-3.686 5.043-4.906 8.094a26.399 26.399 0 00-1.782 9.565c0 3.192.592 6.323 1.72 9.375 1.126 3.05 2.715 5.745 4.78 8.092 2.066 2.348 4.496 4.233 7.313 5.688 2.86 1.455 6.024 2.187 9.5 2.187 3.284 0 6.337-.67 9.154-2.03 2.817-1.41 5.278-3.263 7.344-5.563 2.11-2.347 3.73-5.043 4.905-8.094a25.796 25.796 0 001.844-9.656c0-3.098-.562-6.152-1.69-9.157-1.125-3.05-2.715-5.762-4.78-8.156-2.02-2.392-4.48-4.324-7.344-5.78C394.793.75 391.646 0 388.22 0zm48.124 0c-2.676 0-5.09.296-7.25.906-2.113.564-3.95 1.452-5.5 2.625a11.83 11.83 0 00-3.53 4.22c-.8 1.644-1.19 3.53-1.19 5.688 0 2.066.375 3.81 1.126 5.22.75 1.36 1.857 2.53 3.313 3.468 1.502.892 3.293 1.64 5.406 2.25 2.157.563 4.634 1.077 7.404 1.594 2.863.562 5.356 1.185 7.47 1.842 2.11.658 3.856 1.468 5.217 2.407 1.363.937 2.344 2.06 3 3.373.66 1.267 1 2.84 1 4.718 0 3.757-1.463 6.56-4.374 8.44-2.863 1.83-6.774 2.75-11.75 2.75-3.802 0-7.214-.577-10.218-1.75-2.96-1.175-5.685-3.09-8.22-5.72l-1.063.906c2.676 2.676 5.56 4.67 8.657 5.938 3.145 1.22 6.744 1.812 10.78 1.812 5.493 0 9.778-1.06 12.876-3.218 3.145-2.16 4.72-5.292 4.72-9.376 0-2.207-.438-4.045-1.283-5.5s-2.06-2.67-3.656-3.657c-1.55-.985-3.434-1.81-5.687-2.468-2.254-.658-4.762-1.25-7.53-1.814-2.77-.563-5.17-1.124-7.19-1.687-1.97-.61-3.607-1.328-4.874-2.126-1.268-.845-2.203-1.858-2.814-3.032-.61-1.22-.906-2.716-.906-4.5 0-1.83.297-3.482.908-4.937.61-1.454 1.59-2.685 2.906-3.72 1.314-1.077 2.98-1.903 5-2.467 2.065-.563 4.51-.843 7.375-.843 2.955 0 5.51.39 7.623 1.187 2.16.8 4.216 2.28 6.187 4.44l.908-.97c-1.972-2.16-4.138-3.702-6.532-4.594C442.31.466 439.536 0 436.344 0zM42.406.594V44.47c0 3.097 2.042 5.75 5.563 5.75h3.185l-.03-1.345c-.07 0-1.162.03-3.063.03-2.747 0-4.22-2.394-4.22-4.436V.592h-1.437zm194.844 0v44c0 3.38 2.933 5.625 6.313 5.625 3.872 0 4.335.07 4.406 0v-1.41h-4.408c-2.465 0-4.696-1.472-4.907-4.218V14.75h10.188v-1.406h-10.188V.594h-1.406zm150.97.812c3.097 0 5.964.655 8.592 1.97a22.113 22.113 0 016.97 5.343c1.97 2.204 3.513 4.775 4.593 7.685a24.2 24.2 0 011.688 8.938c0 2.957-.546 5.886-1.625 8.75A24.424 24.424 0 01404 41.748c-1.878 2.252-4.184 4.09-6.906 5.5-2.676 1.36-5.636 2.03-8.875 2.03-3.194 0-6.108-.654-8.784-1.97a21.838 21.838 0 01-6.906-5.28 26.811 26.811 0 01-4.592-7.656 25.784 25.784 0 01-1.625-9.03c0-2.96.53-5.856 1.562-8.72 1.08-2.863 2.575-5.434 4.5-7.688 1.925-2.253 4.23-4.044 6.906-5.406 2.725-1.407 5.7-2.124 8.94-2.124zm-74.314 1.28c-.803.05-1.614.26-2.312.658a4.932 4.932 0 00-2.25 2.812c-.242.802-.233 1.666-.156 2.5.085.928.264 1.826.53 2.72.198.66.457 1.3.72 1.936-1.03.005-2.065.028-3.094.032-.25.004-2.197.022-3.188.312-5.243 1.537-8.483 4.27-10.97 9.125l.002-9.435h-1.407v36.53h1.41V26.782c.914-3.343 2.604-6.266 5-8.405 2.393-2.14 5.485-3.484 9.217-3.625 1.15-.046 2.384-.047 3.563-.063l16.374 35.187c-5.563 12.674-5.773 13.11-6.125 13.53-.495.494-1.06.75-3.315.75l-1.25-.03v1.406l1.25.032c2.606 0 4.015-.552 4.72-1.75l.5-.843 21.75-49.626h-1.563l-15.282 34.78-15.405-33.468c.745-.01 1.51.037 2.25-.062.8-.107 1.56-.427 2.25-.844.724-.437 1.372-.976 1.875-1.656.7-.946 1.062-2.137 1.094-3.313.027-.997-.17-1.986-.625-2.874a5.954 5.954 0 00-1.47-1.813 6.049 6.049 0 00-2.626-1.282 5.79 5.79 0 00-1.438-.125h-.03zm.438 1.158c.78.008 1.552.298 2.187.75.638.45 1.148 1.087 1.5 1.78.44.862.646 1.85.565 2.813-.082.964-.43 1.895-1.063 2.625a4.482 4.482 0 01-3.655 1.5h-1.813L311.47 12a13.191 13.191 0 01-.783-2.625c-.175-.918-.31-1.88-.062-2.78.248-.904.888-1.64 1.688-2.126.613-.375 1.313-.635 2.03-.627zM212.688 12.75c-10.28 0-14.188 9.388-14.188 16.78v20.345h1.406V29.53c0-7.674 4.19-15.374 12.78-15.374 8.592 0 12.75 7.7 12.75 15.375v20.346h1.408V29.53c0-7.392-3.876-16.78-14.156-16.78zm-195.72.03C6.76 12.78.283 21.93 0 31.72c0 9.364 7.384 18.874 17.594 18.874 5.492 0 12.278-3.047 14.53-8.75h-1.53c-2.183 4.788-7.65 7.343-13 7.343-8.943 0-15.554-7.91-16.188-16.78h33.438v-.75c-.14-10-7.172-18.876-17.875-18.876zm55.25 0c-10.21 0-16.686 9.15-16.968 18.94 0 9.364 7.415 18.874 17.625 18.874 5.492 0 12.247-3.047 14.5-8.75h-1.5c-2.183 4.788-7.65 7.343-13 7.343-8.942 0-15.585-7.91-16.22-16.78h33.47v-.75c-.14-10-7.203-18.876-17.906-18.876zm37.813 0c-5.983 0-10.692 4.583-12.123 10.19-.7 2.738-.937 3.63-.937 26.905h1.405c0-20.486.054-22.017.438-24.813.897-5.91 5.075-10.935 11.218-10.875 6.56 0 12.87 4.226 12.5 15.47 0 2.993.096 8.145.096 11.968 0 4.284-.094 8.25-.094 8.25h1.407s.15-13.597 0-20.22c-.245-10.665 5.52-15.455 11.906-15.468 6.653.1 11.758 5.12 12.156 12.094.202 3.537.094 17.597.094 23.596h1.406c0-23.335-.228-24.368-.72-26.844-1.046-5.278-6.27-10.25-12.936-10.25-6.934 0-11.96 5.04-12.438 10.626-.563-5.633-6.545-10.625-13.375-10.625zm63.658 0c-10.21 0-16.687 9.15-16.968 18.94 0 9.364 7.414 18.874 17.624 18.874 5.492 0 12.247-3.047 14.5-8.75h-1.5c-2.183 4.788-7.65 7.343-13 7.343-8.943 0-15.585-7.91-16.22-16.78h33.47v-.75c-.14-10-7.204-18.876-17.906-18.876zm95.188 0c-4.506 0-8.854 2.177-12.656 4.782l.842 1.125c4.084-2.886 8.292-4.5 11.813-4.5 7.253 0 11.97 5.193 11.97 12.657V31c-1.902-.704-6.266-2.03-12.25-2.03-6.338 0-15.064 2.52-15.064 10.405 0 6.267 5.227 11.22 11.846 11.22 5.703 0 11.737-2.12 15.47-6.908v3.375c0 1.48.91 2.743 2.53 2.813h1.406V48.47h-1.405c-.775 0-.984-.563-1.125-1.408V26.844c0-7.887-4.573-14.063-13.375-14.063zM16.97 14.188c9.364 0 15.77 7.307 16.405 16.813H1.405C1.83 22.975 7.322 14.19 16.97 14.19zm55.25 0c9.364 0 15.77 7.307 16.405 16.813h-31.97c.424-8.026 5.917-16.812 15.564-16.812zm101.468 0c9.364 0 15.772 7.307 16.406 16.813h-31.97c.423-8.026 5.917-16.812 15.564-16.812zm94.906 16.188c4.084 0 8.236.638 12.25 2.187v7.25c0 .845-.327 1.82-1.03 2.875-2.888 4.507-9.088 6.5-14.44 6.5-5.42 0-10.437-3.897-10.437-9.812 0-6.83 7.672-9 13.657-9z" fill="#333"></path></svg></h1>
+	<p>La alternativa a Windows y a macOS rápida, libre y respetuosa con la privacidad</p>
+	</div>
+	</div>
+	
+
+	<!----------------------------------- dos ---------------------------------->
+
+
+	<!----------------------------------- tres ---------------------------------->
+
+	
+
+	<!----------------------------------- cuatro ---------------------------------->
+
+	<section id="workflow" class="grey">
+	<div class="grid">
+	<div class="two-thirds">
+	<h1>Productividad y diversión al máximo</h1>
+	<p>Eleve su productividad y concentración con la vista multitarea, el modo minipantalla y la función No molestar. O elimine toda notificación del trabajo mientras ve vídeos o juega.</p>
+	</div>
+	</div>
+	<div class="grid">
+	<div class="third">
+	<figure class="multitasking">
+	<div class="workspace"></div>
+	</figure>
+	<h4>Vista multitarea</h4>
+	<p>Las áreas de trabajo le ayudan a organizar sus pendientes. Mantenga el trabajo y el ocio separados, pero accesibles con solo una pulsación.</p>
+	</div>
+	<div class="third">
+	<figure class="pip">
+	<div class="workspace">
+	<img class="window" src="images/screenshots/videos.png" srcset="images/screenshots/videos@2x.png 2x" alt="Captura de pantalla de Vídeos">
+	</div>
+	</figure>
+	<h4>Modo minipantalla</h4>
+	<p>Trátese de una película, un juego o un proceso del terminal, el modo minipantalla le permite estar al tanto de una cosa mientras trabaja en otra. </p>
+	</div>
+	<div class="third">
+	<figure class="dnd">
+	<div class="workspace">
+	<img class="window" src="images/screenshots/code.png" srcset="images/screenshots/code@2x.png 2x" alt="Captura de pantalla de Código">
+	<div class="notification" type="notification">
+	<img src="images/icons/apps/64/internet-mail.svg">
+	</div>
+	<div class="notification" type="notification">
+	<img src="images/icons/apps/64/internet-mail.svg">
+	</div>
+	<div class="notification" type="notification">
+	<img src="images/icons/apps/64/internet-mail.svg">
+	</div>
+	</div>
+	</figure>
+	<h4>No molestar</h4>
+	<p>Apártelo todo y conserve su concentración en el trabajo, o mantenga a raya todas las notificaciones mientras mira una película. El modo No molestar interrumpe la emisión de notificaciones.</p>
+	</div>
+	</div>
+	</section>
+
+	<!----------------------------------- cinco ---------------------------------->
+
+	<section>
+	<div id="showcase" class="row grey initialized" style="height: 573px;">
+	<div class="pantheon" style="display:none;">
+	<div id="notification-container">
+	<div class="window" type="notification">
+	<div><span class="icon" icon="apps/48/utilities-terminal"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48"><defs><linearGradient id="a"><stop offset="0" stop-color="#fff"></stop><stop offset=".03" stop-color="#fff" stop-opacity=".235"></stop><stop offset=".978" stop-color="#fff" stop-opacity=".157"></stop><stop offset="1" stop-color="#fff" stop-opacity=".392"></stop></linearGradient><linearGradient id="b"><stop offset="0" stop-color="#181818"></stop><stop offset="1" stop-color="#181818" stop-opacity="0"></stop></linearGradient><linearGradient id="c"><stop offset="0" stop-color="#181818"></stop><stop offset="1" stop-color="#181818" stop-opacity="0"></stop></linearGradient><linearGradient id="d"><stop offset="0" stop-color="#181818" stop-opacity="0"></stop><stop offset=".5" stop-color="#181818"></stop><stop offset="1" stop-color="#181818" stop-opacity="0"></stop></linearGradient><linearGradient x1="24" y1="6.032" x2="24" y2="41.934" id="j" xlink:href="#a" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 1)"></linearGradient><linearGradient x1="25.058" y1="47.028" x2="25.058" y2="39.999" id="h" xlink:href="#d" gradientUnits="userSpaceOnUse"></linearGradient><linearGradient id="e"><stop offset="0" stop-color="#404648"></stop><stop offset="1" stop-color="#0c1011"></stop></linearGradient><radialGradient cx="4.993" cy="43.5" r="2.5" fx="4.993" fy="43.5" id="f" xlink:href="#b" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2.00378 0 0 1.4 27.988 -17.4)"></radialGradient><radialGradient cx="4.993" cy="43.5" r="2.5" fx="4.993" fy="43.5" id="g" xlink:href="#c" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2.00378 0 0 1.4 -20.012 -104.4)"></radialGradient><radialGradient cx="6.953" cy="9.957" r="12.672" fx="6.953" fy="9.957" id="i" xlink:href="#e" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 5.93803 -7.29 0 97.418 -54.25)"></radialGradient></defs><g opacity=".6"><path fill="url(#f)" d="M38 40h5v7h-5z" transform="matrix(1.1579 0 0 .64286 -3.79 16.036)"></path><path transform="matrix(-1.1579 0 0 -.64286 -3.79 16.036)" fill="url(#g)" d="M-10-47h5v7h-5z"></path><path fill="url(#h)" d="M10 40h28v7H10z" transform="matrix(1.1579 0 0 .64286 -3.79 16.036)"></path></g><rect width="39" height="39" rx="2" ry="2" x="4.5" y="5.5" style="marker:none;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1;filter-blend-mode:normal;filter-gaussianBlur-deviation:0" opacity=".9" color="#000" fill="url(#i)" overflow="visible"></rect><rect width="39" height="39" rx="2" ry="2" x="4.5" y="5.5" style="marker:none" opacity=".7" color="#000" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" overflow="visible"></rect><rect width="37" height="37" rx="1" ry="1" x="5.5" y="6.5" opacity=".3" fill="none" stroke="url(#j)" stroke-linecap="round" stroke-linejoin="round"></rect><path style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1;marker:none" d="M12 12.984A1.017 1.017 0 0010.984 14v.535c-.23.113-.484.173-.687.336a1.017 1.017 0 00-.004.002c-.775.625-1.201 1.603-1.201 2.617 0 .55.115 1.09.375 1.565.23.423.545.798.92 1.107.397.327.885.593 1.494.865.468.212.69.333.85.42-.25-.002-.551-.04-.909-.129h-.002a10.342 10.342 0 01-1.424-.506 1.017 1.017 0 00-1.412.936v1.725a1.017 1.017 0 00.588.922c.433.2.933.254 1.412.355V25A1.017 1.017 0 0012 26.016h2A1.017 1.017 0 0015.016 25v-.541c.232-.112.493-.177.697-.332.825-.626 1.303-1.63 1.303-2.678 0-.76-.236-1.505-.707-2.084-.497-.614-1.204-1.04-2.137-1.465-.338-.153-.396-.19-.592-.289.098.014.19.012.291.035a1.017 1.017 0 00.002.002c.247.058.62.179 1.084.36a1.017 1.017 0 001.3-.541l.63-1.444a1.017 1.017 0 00-.545-1.345c-.453-.187-.891-.325-1.326-.442V14A1.017 1.017 0 0014 12.984h-2zm7 12A1.017 1.017 0 0017.984 26v2A1.017 1.017 0 0019 29.016h8A1.017 1.017 0 0028.016 28v-2A1.017 1.017 0 0027 24.984h-8z" color="#000" overflow="visible" opacity=".15"></path><path style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1;marker:none;filter-blend-mode:normal;filter-gaussianBlur-deviation:0" d="M12 14v1.15c-.414.11-.773.278-1.068.514-.55.443-.825 1.052-.825 1.826 0 .411.084.771.252 1.078.168.308.393.577.674.809.281.231.703.473 1.266.725.6.271.996.47 1.19.593.197.124.346.253.447.389.1.132.15.283.15.455 0 .307-.115.54-.346.695-.226.156-.554.233-.982.233a4.93 4.93 0 01-1.184-.162c-.428-.108-.953-.293-1.574-.557v1.725c.595.277 1.264.441 2 .5V25h2v-1.164a3.11 3.11 0 001.1-.52c.6-.455.9-1.076.9-1.867 0-.57-.16-1.052-.479-1.443-.319-.395-.909-.789-1.769-1.18-.65-.295-1.064-.5-1.24-.611a1.348 1.348 0 01-.377-.354.773.773 0 01-.12-.43c0-.263.098-.476.296-.64.197-.164.48-.246.85-.246.31 0 .625.037.944.113.324.076.73.21 1.221.403l.63-1.444a9.675 9.675 0 00-1.366-.455 5.349 5.349 0 00-.59-.107V14h-2zm7 12v2h8v-2h-8z" color="#000" overflow="visible" opacity=".3"></path><path style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1;marker:none" d="M12 13v1.15c-.414.11-.773.278-1.068.514-.55.443-.825 1.052-.825 1.826 0 .411.084.771.252 1.078.168.308.393.577.674.809.281.231.703.473 1.266.725.6.271.996.47 1.19.593.197.124.346.253.447.389.1.132.15.283.15.455 0 .307-.115.54-.346.695-.226.156-.554.233-.982.233a4.93 4.93 0 01-1.184-.162c-.428-.108-.953-.293-1.574-.557v1.725c.595.277 1.264.441 2 .5V24h2v-1.164a3.11 3.11 0 001.1-.52c.6-.455.9-1.076.9-1.867 0-.57-.16-1.052-.479-1.443-.319-.395-.909-.789-1.769-1.18-.65-.295-1.064-.5-1.24-.611a1.348 1.348 0 01-.377-.354.773.773 0 01-.12-.43c0-.263.098-.476.296-.64.197-.164.48-.246.85-.246.31 0 .625.037.944.113.324.076.73.21 1.221.403l.63-1.444a9.675 9.675 0 00-1.366-.455 5.349 5.349 0 00-.59-.107V13h-2zm7 12v2h8v-2h-8z" color="#000" overflow="visible" fill="#fff" stroke-width="5"></path></svg></span></div>
+	<div>
+	<h3>Tarea finalizada</h3>
+	<p data-l10n-off="">git clone https://github.com/elementary/website</p>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div id="showcase-index" class="active">
+	<div>
+	<h2>Solo con las aplicaciones que necesita.</h2>
+	<p>elementary OS incluye un conjunto de aplicaciones cuidadosamente seleccionadas para responder a las necesidades diarias, de tal manera que pueda aprovechar más su equipo sin tener que lidiar con <em>bloatware</em>.</p>
+	</div>
+	<ul id="showcase-grid">
+	<a href="/#showcase-music"><li class="read-more"><img src="images/icons/apps/64/multimedia-audio-player.svg" alt="Icono de la aplicación Música">Música</li></a>
+	<a href="/#showcase-epiphany"><li class="read-more"><img src="images/icons/apps/64/internet-web-browser.svg" alt="Icono de la aplicación Navegador">Epiphany</li></a>
+	<a href="/#showcase-mail"><li class="read-more"><img src="images/icons/apps/64/internet-mail.svg" alt="Icono de la aplicación Correo">Correo</li></a>
+	<a href="/#showcase-photos"><li class="read-more"><img src="images/icons/apps/64/multimedia-photo-manager.svg" alt="Icono de la aplicación Fotos">Fotos</li></a>
+	<a href="/#showcase-videos"><li class="read-more"><img src="images/icons/apps/64/multimedia-video-player.svg" alt="Icono de la aplicación Vídeos">Vídeos</li></a>
+	<a href="/#showcase-calendar"><li class="read-more"><img src="images/icons/apps/64/office-calendar.svg" alt="Icono de la aplicación Calendario">Calendario</li></a>
+	<a href="/#showcase-files"><li class="read-more"><img src="images/icons/apps/64/system-file-manager.svg" alt="Icono de la aplicación Gestor de archivos">Archivos</li></a>
+	<a href="/#showcase-terminal"><li class="read-more"><img src="images/icons/apps/64/utilities-terminal.svg" alt="Icono de la aplicación Terminal">Terminal</li></a>
+	<a href="/#showcase-code"><li class="read-more"><img src="images/thirdparty-icons/apps/64/io.elementary.code.svg" alt="Icono de la aplicación Editor de código">Código</li></a>
+	<a href="/#showcase-camera"><li class="read-more"><img src="images/icons/apps/64/accessories-camera.svg" alt="Icono de la aplicación Cámara">Cámara</li></a>
+	</ul>
+	</div>
+	<div class="showcase-tab" id="showcase-music"><div class="showcase-back"></div>
+	<div class="app-display">
+	<img class="app-display__image" src="images/screenshots/music.png" srcset="images/screenshots/music@2x.png 2x" alt="captura de pantalla de Música">
+	 <div class="app-display__description">
+	<img src="images/icons/apps/64/multimedia-audio-player.svg" alt="icono de Música">
+	<div>
+	<h2>Música</h2>
+	<p>Organice y escuche su música. Navegue por los álbumes, use la búsqueda rápida y cree listas de reproducción.</p>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="showcase-tab" id="showcase-epiphany"><div class="showcase-back"></div>
+	<div class="app-display">
+	<img class="app-display__image" src="images/screenshots/epiphany.png" srcset="images/screenshots/epiphany@2x.png 2x" alt="captura de pantalla de Epiphany">
+	<div class="app-display__description">
+	<img src="images/icons/apps/64/internet-web-browser.svg" alt="icono de Epiphany">
+	<div>
+	<h2>Epiphany</h2>
+	<p>Navegue por internet con un navegador rápido y ligero. Epiphany le permite visitar páginas y aplicaciones web modernas al tiempo que consume poca batería.</p>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="showcase-tab" id="showcase-mail"><div class="showcase-back"></div>
+	<div class="app-display">
+	<img class="app-display__image" src="images/screenshots/mail.png" alt="captura de pantalla de Correo">
+	<div class="app-display__description">
+	<img src="images/icons/apps/64/internet-mail.svg" alt="icono de Correo">
+	<div>
+	<h2>Correo</h2>
+	<p>Gestione múltiples cuentas de correo electrónico de forma rápida con mensajes de correo electrónico organizados en conversaciones, búsqueda instantánea, notificaciones y mucho más.</p>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="showcase-tab" id="showcase-photos"><div class="showcase-back"></div>
+	<div class="app-display">
+	<img class="app-display__image" src="images/screenshots/photos.png" srcset="images/screenshots/photos@2x.png 2x" alt="captura de pantalla de Fotos">
+	<div class="app-display__description">
+	<img src="images/icons/apps/64/multimedia-photo-manager.svg" alt="icono de Fotos">
+	<div>
+	<h2>Fotos</h2>
+	<p>Importe, organice y edite fotografías. Cree un pase de diapositivas. Compártalas en Facebook o Flickr.</p>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="showcase-tab" id="showcase-videos"><div class="showcase-back"></div>
+	<div class="app-display">
+	<img class="app-display__image" src="images/screenshots/videos.png" srcset="images/screenshots/videos@2x.png 2x" alt="captura de pantalla de Vídeos">
+	<div class="app-display__description">
+	<img src="images/icons/apps/64/multimedia-video-player.svg" alt="icono de Vídeos">
+	<div>
+	<h2>Vídeos</h2>
+	<p>Reproducción inteligente y sencilla de películas con videoteca, previsualizaciones de fotogramas en la barra de búsqueda, compatibilidad con subtítulos, pantalla completa inteligente y reanudación a partir del último punto de reproducción.</p>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="showcase-tab" id="showcase-calendar"><div class="showcase-back"></div>
+	<div class="app-display">
+	<img class="app-display__image" src="images/screenshots/calendar.png" srcset="images/screenshots/calendar@2x.png 2x" alt="captura de pantalla de Calendario">
+	<div class="app-display__description">
+	<img src="images/icons/apps/64/office-calendar.svg" alt="icono de Calendario">
+	<div>
+	<h2>Calendario</h2>
+	<p>Cree y visualice eventos fácilmente. Sincronícelos con cuentas en línea como las de Google.</p>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="showcase-tab" id="showcase-files"><div class="showcase-back"></div>
+	<div class="app-display">
+	<img class="app-display__image" src="images/screenshots/files.png" srcset="images/screenshots/files@2x.png 2x" alt="captura de pantalla de Archivos">
+	<div class="app-display__description">
+	<img src="images/icons/apps/64/system-file-manager.svg" alt="icono de Archivos">
+	<div>
+	<h2>Archivos</h2>
+	<p>La barra de direcciones inteligente hace más fácil la navegación web, las búsquedas o el autocompletado de direcciones. Navegue rápidamente gracias a la vista por columnas y disfrute de la navegación avanzada con herramientas como el historial de pestañas.</p>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="showcase-tab" id="showcase-terminal"><div class="showcase-back"></div>
+	<div class="app-display">
+	<div class="app-display__image">
+	<img class="pantheon--fallback" src="images/screenshots/terminal.png" alt="captura de pantalla de Terminal" style="">
+	<div class="pantheon" style="display: none;">
+	<div class="window dark" type="terminal">
+	<div class="titlebar">
+	<span class="icon control" icon="actions/window-close"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16"><path d="M7.97 6.556L10.5 4 12 5.5 9.401 7.987 12 10.5 10.5 12 7.987 9.401 5.5 12 4 10.5 6.586 8 4 5.5 5.5 4l2.47 2.556z" style="marker:none" overflow="visible"></path></svg></span>
+	<span class="title">Home: git</span>
+	<div>
+	<span class="icon search" icon="actions/system-search"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16"><path d="M6.25.996a5.25 5.25 0 000 10.5 5.24 5.24 0 003.03-.968l4.22 4.218a.888.888 0 001.25 0 .888.888 0 000-1.25l-4.22-4.218a5.24 5.24 0 00.97-3.032A5.25 5.25 0 006.25.996zm0 1.375a3.875 3.875 0 110 7.75 3.875 3.875 0 010-7.75z" style="marker:none" overflow="visible"></path></svg></span>
+	<span class="icon control" icon="actions/window-maximize"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16"><path d="M8 2l2.25 2.223-1.714 1.714-.027.027c-.38.42-.379 1.068.027 1.474a1.07 1.07 0 001.473.053l.214-.214 1.554-1.527L14 8V2zM2 8v6h6l-2.25-2.25 1.714-1.714.027-.027c.38-.42.379-1.068-.027-1.473-.405-.406-1.08-.434-1.5-.054l-.187.214-1.554 1.554z" style="marker:none" overflow="visible"></path></svg></span>
+	</div>
+	</div>
+	<div class="tabbar">
+	<span class="icon" icon="actions/tab-new"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16"><path d="M7 3v4H3v2h4v4h2V9h4V7H9V3H7z" style="marker:none" overflow="visible"></path></svg></span>
+	<div class="tabs">
+	<div class="tab active">
+	<span class="icon" icon="actions/close"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16"><path d="M4.881 4.008a.872.872 0 00-.623.25.883.883 0 000 1.247L6.753 8l-2.495 2.495a.883.883 0 000 1.247.883.883 0 001.247 0L8 9.247l2.495 2.495a.883.883 0 001.247 0 .883.883 0 000-1.247L9.247 8l2.495-2.495a.883.883 0 000-1.247.883.883 0 00-1.247 0L8 6.753 5.505 4.258a.872.872 0 00-.624-.25z" style="marker:none" overflow="visible"></path></svg></span>
+	<span class="title">Home: git</span>
+	</div>
+	<div class="tab">
+	<span class="title">Inicio</span>
+	</div>
+	</div>
+	<span class="icon" icon="actions/document-open-recent"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16"><g stroke-width="2.813"><path d="M8.885 1C5.18 1 2.13 3.44 1.797 7H0l2.654 3.333L5.31 7H3.576c.328-2.596 2.583-4.26 5.309-4.26 2.95 0 5.345 2.356 5.345 5.26s-2.394 5.26-5.345 5.26a5.37 5.37 0 01-4.019-1.793l-1.3 1.185A7.145 7.145 0 008.886 15C12.812 15 16 11.864 16 8s-3.188-7-7.115-7z" style="marker:none" overflow="visible"></path><path d="M9.333 3.667h-.666L8 8.333 11.333 11v-.667l-2-2.666v-4z" style="marker:none" overflow="visible"></path></g></svg></span>
+	</div>
+	<div class="input"><span><span class="prompt"><span style="color: #859900;font-weight: bold;">ellie@elementary</span><span>:</span><span style="color: #268bd2;font-weight: bold;">~</span><span>$</span> </span><span class="input">./demo</span></span><span><span class="prompt"><span style="color: #859900;font-weight: bold;">ellie@elementary</span><span>:</span><span style="color: #268bd2;font-weight: bold;">~</span><span>$</span> </span><span class="input">rm -rf ./website</span></span><span><span class="prompt"><span style="color: #859900;font-weight: bold;">ellie@elementary</span><span>:</span><span style="color: #268bd2;font-weight: bold;">~</span><span>$</span> </span><span class="input">git clone https://github.com/elementary/website.git</span></span><span>Cloning into '/home/ellie/website'...</span><span>remote: Counting objects: 20257, done.</span><span>remote: Compressing objects: 100% (29/29), done.</span><span>Receiving objects: 100% (20257/20257), 21MiB | 1.21 GW/s, done.</span><span>Receiving deltas: 100% (13052/13052), done.</span><span>Checking connectivity... done</span><span><span class="prompt"><span style="color: #859900;font-weight: bold;">ellie@elementary</span><span>:</span><span style="color: #268bd2;font-weight: bold;">~</span><span>$</span> </span><span class="input"></span></span></div>
+	</div>
+	</div>
+	</div>
+	<div class="app-display__description">
+	<img src="images/icons/apps/64/utilities-terminal.svg" alt="icono de terminal">
+	<div>
+	<h2>Terminal</h2>
+	<p>Esquemas de color intercambiables diseñados para evitar la fatiga visual, historial de pestañas, nomenclatura inteligente, notificaciones de finalización de tareas, copia y pega integrado, búsqueda de tareas pendientes, protección contra el pegado y mucho más. ¿Acaso no se puede enseñar trucos nuevos a una antigua aplicación ?</p>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="showcase-tab" id="showcase-code"><div class="showcase-back"></div>
+	<div class="app-display">
+	<img class="app-display__image" src="images/screenshots/code.png" srcset="images/screenshots/code@2x.png 2x" alt="Captura de pantalla de Código">
+	<div class="app-display__description">
+	<img src="images/thirdparty-icons/apps/64/io.elementary.code.svg" alt="Icono de Código">
+	<div>
+	<h2>Código</h2>
+	<p>Hecho a medida con guardado automático, carpetas de proyectos, integración de Git, múltiples paneles, espacios en blanco inteligentes, soporte para EditorConfig, Mini Map, símbolos de Vala y extensiones como Terminal, vista previa web y emulación Vim. Con Código no volverá a necesitar otro editor.</p>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="showcase-tab" id="showcase-camera"><div class="showcase-back"></div>
+	<div class="app-display">
+	<img class="app-display__image" src="images/screenshots/camera.png" srcset="images/screenshots/camera@2x.png 2x" alt="captura de pantalla de Cámara">
+	<div class="app-display__description">
+	<img src="images/icons/apps/64/accessories-camera.svg" alt="icono de Cámara">
+	<div>
+	<h2>Cámara</h2>
+	<p>Haga fotos o vídeos fácilmente desde la cámara web.</p>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</section>
+
+	<!----------------------------------- seis ---------------------------------->
+
+	
+
+	<!----------------------------------- siete ---------------------------------->
+
+	<section id="parental-controls" class="grey">
+	<div class="app-display app-display--overflow">
+	<img class="app-display__image" src="images/screenshots/parental-controls.png" srcset="images/screenshots/parental-controls@2x.png 2x" alt="Controles parentales de elementary OS">
+	<div class="app-display__description">
+	<h2>
+	<img src="images/icons/categories/64/preferences-system-parental-controls.svg" alt="Icono de un adulto que toma la mano de un niño">
+	Controles de los padres
+	</h2>
+	<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M7.5 0C3.37 0 0 3.37 0 7.5S3.37 15 7.5 15 15 11.63 15 7.5 11.63 0 7.5 0zm0 2C10.55 2 13 4.45 13 7.5S10.55 13 7.5 13 2 10.55 2 7.5 4.45 2 7.5 2zm2.965 2.002a.5.5 0 00-.072.008v.008a.5.5 0 00-.25.156L7.486 6.823 5.83 5.174a.5.5 0 10-.687.688l2 2a.5.5 0 00.687 0l3-3a.5.5 0 00-.365-.86z" fill="#666" font-family="sans-serif" font-weight="400" overflow="visible" style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal" color="#000"></path></svg><h4>Tiempo ante pantalla</h4>
+	<p>Establezca límites de tiempo según el usuario para los días de la semana, fines de semana o ambos.</p>
+	<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path style="marker:none" overflow="visible" fill="#666" d="M8 0a8 8 0 00-8 8c0 4.418 3.23 7.072 7.012 7.9l.02-.855c-1.113-.113-1.24-.316-2.188-.795.051-.04.125-.094.125-.094l-.063-.125.219-.218.062-.22.344-.093.25-.687-.062-.157.156-.28.406-.095.188-.468-.032-.625.313-.438.031-.437c-.426-.216-.827-.434-1.25-.657l-.219-.437-.375-.094-.218-.562-.5.062-.47-.344-.468.438v.062c-.141-.041-.311-.046-.437-.125l-.094-.312v-.313l-.313.032c.026-.21.068-.447.094-.657h-.187l-.188.25-.187.094-.25-.156-.032-.313.032-.375.406-.28h.312l.063-.188.375.093.281.344.063-.594.5-.406.156-.469.375-.156.219-.281.468-.094.22-.375h-.688l.437-.187h.313l.406-.157.062.407.188-.282-.219-.156.063-.156-.157-.156-.187-.032.062-.187-.156-.281-.312.125.062-.25-.375-.22-.281.532.031.156-.281.125-.188.407-.062-.375-.5-.188-.094-.281.656-.375.282-.281.03-.344-.155-.094h-.063c.228-.158.442-.307.688-.437v.093l-.22.188-.155.375h.312l.094-.25.031-.063c.126-.09.247-.194.375-.28l.313.093c.194.135.368.272.562.406l.313-.281L6 1.969l-.125-.313-.563-.062v-.063c.01-.004.022.004.031 0l.188.063.156-.156.281-.063c.071-.035.148-.065.22-.094L6 1.469l.656.469v.281l-.25.281.344.688.25-.125.281-.469c.42-.132.823-.286 1.219-.469l-.031.188.187.125.344-.25L8.844 2l-.25.125-.032-.031.344-.937-.344-.125a6.89 6.89 0 013.407 1.218l-.282-.062-.343-.125-.5.125-.313.219v.187L10 2.938l.125.5.281-.219.188.219.218.125.125-.375-.062-.219.062-.156.313-.281h.125l-.125.312v.281c.123-.034.249-.046.375-.062l-.344.25-.031.156-.406.344-.407-.094v-.25l-.187.125.094.219h-.313l-.156.281-.188.219-.375.062.22.22.062.218-.248-.033.437.406.217-.123.031-.125.406-.094.219.25.25.125-.156.281.219-.062.125-.281-.282-.313h.125l.25.219.063.312.219.282.062-.407.125-.062c.132.14.232.31.344.469l.437.03.219.157-.094.156-.25.22h-.343l-.47-.157-.218.031-.187.188-.5-.5-.336-.092 3.279 3.277s.168-.136.525-.31v-.22c-.16.021-.311.052-.468.063l.312-.343.438-.313.25-.281v-.281c-.054-.104-.103-.241-.157-.344l-.218.281L14.062 7l-.25-.187v-.375l.282.312.312-.03c.14.129.283.226.406.374l.094-.125c.05.338.094.68.094 1.031-.113 1.124.036 1.155-.479 2.096l.672.79c.698-1.143.794-1.37.807-2.886a8 8 0 00-8-8zm2.258 5.69l-.035-.036.027.033zM4.75 2.219l.281.218h.25v-.25L5 2.062zm-.938.187l-.062.157s-.103.014-.188.03c.081-.066.167-.124.25-.187zm8.438.031c.065.05.124.105.187.157l-.25.28-.343-.374h.343zm-3.031.407v.187l.125.156v.282l-.063.406.313-.063.25-.218-.22-.22a5.832 5.832 0 00-.218-.53zm-.282.406l-.187.062.031.375.281-.156zM8 4.842v10.38l2.344-2.288 1.34 2.734c.328.74 2.033.145 1.548-.844l-1.326-2.838h2.96zm4.594 1.752l.28.343.376.782.219.25-.125.28.218.25c-.09.007-.187 0-.28 0a10.63 10.63 0 01-.438-1.124l-.22-.25-.124-.469zM1.031 7.5c.042.1.219.406.219.406l.531.313.563.156.218.313.375.28.188-.062.156.094v.031l-.187.594-.157.219.032.125-.125.468.468.844.47.438.218.28-.031.657.156.344-.156.687s.002.024 0 .032a7.01 7.01 0 01-2.97-5.72c0-.167.02-.334.032-.5z" color="#bebebe"></path></svg><h4>Uso de internet</h4>
+	<p>Gestione las páginas web permitidas. Las reglas afectan a todas las aplicaciones para el usuario, incluso si se utiliza un navegador web diferente.</p>
+	<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 2S2 2 2 2.5v3s0 .5.5.5h3S6 6 6 5.5v-3S6 2 5.5 2zm8 0s-.5 0-.5.5v3s0 .5.5.5h3s.5 0 .5-.5v-3s0-.5-.5-.5zM3 3h2v2H3zm8 0h2v2h-2zm-8.5 7s-.5 0-.5.5v3s0 .5.5.5h3s.5 0 .5-.5v-3s0-.5-.5-.5zm8 0s-.5 0-.5.5v3s0 .5.5.5h3s.5 0 .5-.5v-3s0-.5-.5-.5zM3 11h2v2H3zm8 0h2v2h-2z" fill="#666" overflow="visible" style="marker:none" color="#bebebe"></path></svg><h4>Gestione las aplicaciones</h4>
+	<p>Elija qué aplicaciones son seguras para que accedan los más pequeños. Opcionalmente también puede permitir el acceso con su contraseña.</p>
+	</div>
+	</div>
+	</section>
+
+	<!----------------------------------- ocho ---------------------------------->
+
+	<section>
+	<div class="grid">
+	<div class="two-thirds">
+	<h1>Todo lo que hacemos es de código abierto</h1>
+	<p>Nuestra plataforma consiste totalmente de componentes de código abierto y se basa en una plataforma sólida de programas libres (como GNU/Linux). Además, colaboramos de manera activa con el ecosistema para mejorarlo para todos.</p>
+	<a class="read-more" href="/open-source">Explore nuestras tecnologías</a>
+	</div>
+	</div>
+	<div class="grid">
+	<div class="half">
+	<h2>Seguro y respetuoso de la privacidad</h2>
+	<p>Como el código fuente está disponible para su revisión, cualquiera (un investigador de seguridad, un usuario preocupado o un fabricante que incluye el sistema en sus equipos) puede verificar que el <em>software</em> es seguro y no filtra información personal.</p>
+	<a class="read-more" href="https://usn.ubuntu.com/releases/ubuntu-18.04-lts/" target="_blank" rel="noopener">Avisos de seguridad</a>
+	</div>
+	<div class="half">
+	<h2>Hecho para los desarrolladores</h2>
+	<p>Tiene acceso completo a nuestro código fuente por si quiere añadir una funcionalidad para complementar su aplicación o si tiene curiosidad por ver cómo funciona una prestación o una pauta de diseño. Cópielo, aprenda de él, remézclelo, modifíquelo y redistribúyalo.</p>
+	<a class="read-more" href="get-involved#desktop-development">Participar</a>
+	</div>
+	</div>
+	</section>
+
+	<!----------------------------------- nueve ---------------------------------->
+
+	<section id="shortcuts" class="grey">
+	<div class="app-display app-display--horizontal">
+	<img class="app-display__image" src="images/screenshots/shortcut-overlay.png" srcset="images/screenshots/shortcut-overlay@2x.png 2x" alt="Atajos de teclado de elementary OS">
+	<div class="app-display__description">
+	<h1>Fáciles de usar. Ideales para un uso eficiente del teclado.</h1>
+	<p>elementary OS está diseñado para que sea fácil de entender y de usar para el nuevo usuario. Esto no quiere decir que sea limitado; los potentes y personalizables atajos de teclado garantizan mantenerse productivo, ya sea el primer o el enésimo día que usa elementary.</p>
+	</div>
+	</div>
+	</section>
+
+	<!----------------------------------- diez ---------------------------------->
+
+	<section id="privacy">
+	<div class="grid">
+	<div class="two-thirds">
+	<h1>Respeto por la privacidad. En todos los ámbitos.</h1>
+	<p>Sus datos le pertenecen exclusivamente a usted. No hacemos ofertas de publicidad ni recopilamos datos personales. Nos financiamos directamente gracias a nuestros usuarios, que pagan lo que desean por elementary OS y por las aplicaciones del Centro de aplicaciones. Así es como se debe hacer.</p>
+	<a class="read-more" href="privacy">Nuestra normativa de privacidad</a>
+	</div>
+	</div>
+	<div class="grid">
+	<div class="third">
+	<h4>
+	<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M8 1c-1.108 0-2 .892-2 2v6c0 1.108.892 2 2 2s2-.892 2-2V3c0-1.108-.892-2-2-2zM3 6v1h1v2a3.981 3.981 0 003 3.861V15H6v1h4v-1H9v-2.139A3.981 3.981 0 0012 9V7h1V6h-2v3c0 1.662-1.338 3-3 3s-3-1.338-3-3V6z" fill="#666" overflow="visible" style="isolation:auto;mix-blend-mode:normal;marker:none" color="#bebebe"></path></svg> Sin escuchas
+	</h4>
+	<p>elementary OS le a ayuda a controlar el funcionamiento de las aplicaciones. Cuando una aplicación use el micrófono, se muestra un indicador para informar acerca de ello. Cuando una aplicación utilice demasiada energía, el indicador de energía lo marcará.</p>
+	</div>
+	<div class="third">
+	<h4>
+	<svg height="16" width="15.974" xmlns="http://www.w3.org/2000/svg"><path color="#000" d="M7.987 15V8h-7l14-7z" fill="#666" overflow="visible" style="marker:none"></path></svg> Servicios de ubicación
+	</h4>
+	<p>Cuando una aplicación quiera acceder a su ubicación, tiene que pedirlo. Se muestra un mensaje que indica qué aplicación y la precisión que solicita. Siempre se puede revocar el acceso en Configuración del sistema&nbsp;▸ Seguridad y privacidad.</p>
+	</div>
+	<div class="third">
+	<h4>
+	<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path color="#000" d="M11.098.045c-.558-.041-.89.442-1.114.879L6.912 6.139c-.613-.365-1.204-.77-1.832-1.109-.526-.32-1.34.012-1.376.646l-.014.763 6.02 3.522c.36-.139.817-.192.956-.626.25-.57-.223-1.09-.712-1.318l-1.339-.828c1.119-1.902 2.243-3.801 3.357-5.706.328-.63-.164-1.44-.874-1.438zM3.024 7.203c-1.428.55-2.304 2.203-1.927 3.692.322 1.522 1.776 2.504 3.218 2.821 1.826.418 3.828.25 5.685.284h.76c-.987-.154-2.12-.552-2.53-1.547-.283-.68.152-1.53.868-1.697L3.024 7.203z" fill="#666" font-family="sans-serif" font-weight="400" overflow="visible" style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal;marker:none"></path></svg> Mantenimiento
+	</h4>
+	<p>elementary OS puede mantener en orden los archivos temporales y los eliminados. Esto no solo conserva libre el almacenamiento de su ordenador, sino que ayuda a garantizar que los datos privados no vuelvan a ser molestos.</p>
+	</div>
+	</div>
+	</section>
+
+	<!----------------------------------- once ---------------------------------->
+
+	
+
+	<!-------------------------------------------------------------------------->
+
+	<span id="translate-download" style="display:none;" hidden="">Descargar elementary&nbsp;OS</span>
+	<span id="translate-purchase" style="display:none;" hidden="">Comprar elementary OS</span>
+	<div id="download-modal" class="dialog modal">
+	<img alt="Descargar el icono de elementary OS" src="images/icons/apps/48/system-os-installer.svg">
+	<div class="content-area">
+	<p class="primary">Elija una descarga</p>
+	<p>Descargue a partir de un servidor local o mediante un enlace «magnet». Para obtener ayuda y más información, consulte <a class="read-more" href="docs/installation" target="_blank" rel="noopener">guía de instalación</a></p>
+	</div>
+	<div class="action-area">
+	<a class="button clickable close-modal" target="_blank" rel="noopener">Cerrar</a>
+	<div class="linked">
+	<a class="button suggested-action download-link http" href="//sfo1.dl.elementary.io/download/MTYxNjM3NzI2OA==/elementaryos-5.1-stable.20200814.iso">Descargar</a>
+	<a class="button suggested-action download-link magnet" title="Enlace «magnet»" href="magnet:?xt=urn:btih:73e9c0288c0b62c2646b695219b550fd231fede4&amp;dn=elementaryos-5.1-stable.20200814.iso&amp;tr=https%3A%2F%2Fashrise.com%3A443%2Fphoenix%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.ccc.de%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounce&amp;ws=http%3A%2F%2Fsfo1.dl.elementary.io%2Fdownload%2FMTYxNjM3NzI2OA%3D%3D%2Felementaryos-5.1-stable.20200814.iso"><i class="fa fa-magnet"></i></a>
+	</div>
+	</div>
+	</div>
+	<a style="display:none;" class="open-modal" href="#download-modal"></a>
+	<!--[if lt IE 10]><script type="text/javascript" src="https://cdn.jsdelivr.net/gh/eligrey/classList.js@1.1.20170427/classList.min.js"></script><![endif]-->
+</div>
+
+<footer>
+	<div>
+	<p>
+	Copyright © 2021 elementary, Inc. </p>
+	<div class="popover">
+	<a href="/#"><i class="far fa-language"></i> Idioma</a>
+	<div class="popover-content">
+	<strong>Cambiar el idioma de la página</strong>
+	<ul>
+	<li><a href="/en/" rel="alternate" hreflang="en" data-l10n-off="">
+	English </a></li>
+	<hr>
+	<li><a href="/af/" rel="alternate" hreflang="af" data-l10n-off="">
+	Afrikaans </a></li>
+	<li><a href="/ar/" rel="alternate" hreflang="ar" data-l10n-off="">
+	العَرَبِيَّة‎‎ </a></li>
+	<li><a href="/ca/" rel="alternate" hreflang="ca" data-l10n-off="">
+	català </a></li>
+	<li><a href="/cs_CZ/" rel="alternate" hreflang="cs-CZ" data-l10n-off="">
+	čeština </a></li>
+	<li><a href="/de/" rel="alternate" hreflang="de" data-l10n-off="">
+	Deutsch </a></li>
+	<li><a href="/es/" rel="alternate" hreflang="es" data-l10n-off="">
+	Español </a></li>
+	<li><a href="/fi/" rel="alternate" hreflang="fi" data-l10n-off="">
+	Finnish </a></li>
+	<li><a href="/fr/" rel="alternate" hreflang="fr" data-l10n-off="">
+	Français </a></li>
+	<li><a href="/he/" rel="alternate" hreflang="he" data-l10n-off="">
+	עִברִית </a></li>
+	<li><a href="/it/" rel="alternate" hreflang="it" data-l10n-off="">
+	Italiano </a></li>
+	<li><a href="/ja/" rel="alternate" hreflang="ja" data-l10n-off="">
+	日本語 </a></li>
+	<li><a href="/ko/" rel="alternate" hreflang="ko" data-l10n-off="">
+	한국어 </a></li>
+	<li><a href="/lt/" rel="alternate" hreflang="lt" data-l10n-off="">
+	Lietuvių kalba </a></li>
+	<li><a href="/ms/" rel="alternate" hreflang="ms" data-l10n-off="">
+	bahasa Melayu </a></li>
+	<li><a href="/mr/" rel="alternate" hreflang="mr" data-l10n-off="">
+	मराठी </a></li>
+	<li><a href="/nb/" rel="alternate" hreflang="nb" data-l10n-off="">
+	Bokmål </a></li>
+	<li><a href="/nl/" rel="alternate" hreflang="nl" data-l10n-off="">
+	Nederlands </a></li>
+	<li><a href="/pl/" rel="alternate" hreflang="pl" data-l10n-off="">
+	Polski </a></li>
+	<li><a href="/pt_BR/" rel="alternate" hreflang="pt-BR" data-l10n-off="">
+	Português (Brasil) </a></li>
+	<li><a href="/pt/" rel="alternate" hreflang="pt" data-l10n-off="">
+	Português (Portugal) </a></li>
+	<li><a href="/ru/" rel="alternate" hreflang="ru" data-l10n-off="">
+	Русский </a></li>
+	<li><a href="/th/" rel="alternate" hreflang="th" data-l10n-off="">
+	Thai </a></li>
+	<li><a href="/sk/" rel="alternate" hreflang="sk" data-l10n-off="">
+	Slovak </a></li>
+	<li><a href="/sv/" rel="alternate" hreflang="sv" data-l10n-off="">
+	Swedish </a></li>
+	<li><a href="/tr_TR/" rel="alternate" hreflang="tr-TR" data-l10n-off="">
+	Türkçe </a></li>
+	<li><a href="/uk/" rel="alternate" hreflang="uk" data-l10n-off="">
+	українська </a></li>
+	<li><a href="/zh_CN/" rel="alternate" hreflang="zh-CN" data-l10n-off="">
+	简体中文 </a></li>
+	<li><a href="/zh_TW/" rel="alternate" hreflang="zh-TW" data-l10n-off="">
+	繁體中文 </a></li>
+	</ul>
+	</div>
+	</div>
+	</div>
+	<ul>
+	<li><a href="/press">Press</a></li>
+	<li><a href="/brand">Marca</a></li>
+	<li><a href="/oem">OEMs</a></li>
+	<li><a href="/privacy">Privacy</a></li>
+	<li><a href="/team">Equipo</a></li>
+	<li><a href="/open-source">Código abierto</a></li>
+	</ul>
+</footer>
+
+</body>
+</html>
